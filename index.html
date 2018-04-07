@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CrystalsCollector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>CrystalsCollector!</h1>
+    </header>
+
+    <div class="box" id="info">
+        <p>You've stumbled upon the cave of Golgothia. In ancient times, mystics would come to the cave to predict their fortunes. The cave imbues visitors with great powers.</p>
+        <p>Test your power by clicking on the crystals that add up to the number on the screen.</p>
+        <p>By matching the number and winning, you will tap into the full potential of your mind and will be forever properous.</p>
+    </div>
+
+    <div class="box" id="number">
+        <span id="randomNumber"></span>
+    </div>
+
+    <div class="box" id="score">
+        <h2>WINS:
+            <span id="numberWins"></span>
+        </h2>
+        <h2>LOSSES:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="cyrstals">
+        <img id="redder" src="assets/images/crystalRed.png" alt="redcrystal">
+        <img id="bluer" src="assets/images/crystalBlue.png" alt="bluecrystal">
+        <img id="greener" src="assets/images/crystalGreen.png" alt="greencrystal">
+        <img id="yellower" src="assets/images/crystalYellow.png" alt="yellowcrystal">
+    </div>
+
+    <div class="box" id="playerTotal">
+        <h2>TOTAL SCORE:
+            <span id="totalScore"></span>
+        </h2>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

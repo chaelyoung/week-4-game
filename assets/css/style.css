@@ -1,0 +1,56 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    background: url("../images/bg02.jpg"), black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.box {
+    background: grey;
+    padding: 10px;
+    margin: 15px;
+}
+
+#info {
+    width: auto;
+}
+
+#number {
+    float: left;
+    width: 30%;
+    height: 115px;
+}
+
+#score {
+    float: left;
+    width: 50%;
+    display: inline;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+
+#crystals {
+    width: 600px;
+}
+
+img {
+    width: 110px;
+}
+
